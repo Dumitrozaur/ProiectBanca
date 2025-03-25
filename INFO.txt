@@ -1,0 +1,17 @@
+-La partea de interfata trebe sa faceti o parte de login ca si angajat
+sau ca si client
+-La partea de angajat trebuie sa poata gestiona fiecare parte din contul unui client,
+deci trebuie sa aiba access la toate chestiile lui, acolo o sa faceti un tabel
+in care o sa apara din baza de date lista cu toti clientii
+sa se poata da click pe fiecare client si sa se deschida o fereastra speciala
+pentru fiecare in care o sa apara toate detaliile de depozit, bills
+ce carduri de credit detine, loans si user(care se refera la contul lor specific din partea de login)
+-Dupa toate astea la partile de loans, accounts si user sa se poata apasa pe ele
+si sa deschida o fereastra cu chestiile specifice adica:
+        -Loan o sa detina informatii despre partea de rate si platile de rate
+        -Partea de Accounts o sa contina informatiile despre conturi, transferul din fiecare si tranzactiile din fiecare depinzand daca are mai multe conturi
+        -User o sa detina informatii despre cont, gen parola mail data de nastere blabla
+-La partea de admin trebuie sa se mai faca o chestie legata de administrarea Users unde sa se vada loginSessions ul fiecaruia si Auditlog-ul lor
+Asta ce inseamna? Cand codati partea de user, eu o sa fac ca la fiecare cont sa lase un fingerprint in spate pe care il stocheaza in partea de audit
+
+Deocamdata atat, daca aveti intrebari, imi ziceti.
