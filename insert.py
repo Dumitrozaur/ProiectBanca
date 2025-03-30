@@ -237,3 +237,6 @@ def insert_ATM(casuta_branch_id, casuta_locatie):
         finally:
             cursor.close()
             conn.close()
+
+insert_client("Valentrin", "Ciprian", "2000-10-10", "cipri@gmail.com", "0740123456", "Str. Florilor, nr. 1")
+insert_user(4, "Cipri", "1234", "Employee")
